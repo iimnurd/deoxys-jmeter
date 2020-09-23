@@ -5,7 +5,7 @@ vus=( 4 )
 for u in "${vus[@]}"
 do
     echo "Start to Performance with $u vus "
-    jmeter -Jthreads=$u -l report/result.csv -j report/result.log $@
+    jmeter -Jthreads=$u -l report/result.csv -j report/result.log -e -o report/html $@
     sleep 10
 done
 echo "**************************"
