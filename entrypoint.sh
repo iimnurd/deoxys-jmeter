@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash 
 echo "Execution is being started"
 echo "**************************"
 vus=( 1 5 10 )
