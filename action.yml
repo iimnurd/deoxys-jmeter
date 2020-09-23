@@ -1,7 +1,7 @@
 # action.yml
-name: PerfAction for JMeter
+name: Performance Test For Jmeter
 description: Run performance tests using JMeter test plan
-author: NaveenKumar Namachivayam - https://qainsights.com
+author: IIM NUR DIANSYAH, inspired by  NaveenKumar Namachivayam - https://qainsights.com
 
 branding:
   color: blue

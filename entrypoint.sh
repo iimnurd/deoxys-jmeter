@@ -1,10 +1,10 @@
 #!/bin/bash 
 echo "Execution is being started"
 echo "**************************"
-vus=(1 5)
+vus=(1 5 6)
 for u in "${vus[@]}"
 do
-    echo "Start to Performance with $u vus "
+    echo "Start performance with $u vus "
     jmeter -Jthreads=$u -l report/thread_$u/result.csv -j report/thread_$u/result.log -e -o report/thread_$u/html $@
     sleep 10
 done
