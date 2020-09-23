@@ -22,6 +22,4 @@ runs:
   - "-n"
   - "-t"
   - "${{ inputs.test-plan-path }}"
-  - "-l"
-  - "result.csv"
-  - "${{ inputs.args }}"
+ 
