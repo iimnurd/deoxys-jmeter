@@ -35,6 +35,6 @@ jobs:
         with:
           name: jmeter-results
           path: |
-           result.csv
-           result.log
+          result.csv
+          result.log
  
