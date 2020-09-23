@@ -1,7 +1,7 @@
 #!/bin/bash 
 echo "Execution is being started"
 echo "**************************"
-vus=( 4 5 )
+vus=(1 5)
 for u in "${vus[@]}"
 do
     echo "Start to Performance with $u vus "
