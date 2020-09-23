@@ -34,7 +34,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: jmeter-results
-          path: |
-            report/result.csv
-            report/result.log
+          path: report/
  
